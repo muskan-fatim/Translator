@@ -1,11 +1,30 @@
-# Python-generated files
+# Python cache and bytecode
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*.pyo
+
+# Environment variables
 .env
+.env.*
 
 # Virtual environments
-.venv
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+wheels/
+
+# VS Code settings (optional)
+.vscode/
+
+# Chainlit logs (optional)
+.chainlit/
+
+# Mac and system files
+.DS_Store
+Thumbs.db
